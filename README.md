@@ -4,12 +4,12 @@ Este repositório contém todos os recursos, exemplos e notas que compilei enqua
 
 ### ÍNDICE
 
-- [OPERADORES] (#operadores)
-- [ESTRUTURA DE CONTROLE] (#estrutura-de-controle)
-- [LOOPS] (#looops)
-- [TIPOS DE DADOS] (#tipos-de-dados)
-- [OBJECT] (#object)
-- [FUNCTION] (#function)
+- [OPERADORES](#operadores)
+- [ESTRUTURA DE CONTROLE](#estrutura-de-controle)
+- [LOOPS](#loops)
+- [TIPOS DE DADOS](#tipos-de-dados)
+- [OBJECT](#object)
+- [FUNCTION](#function)
 
 #
 
@@ -89,8 +89,13 @@ console.log(`"c" é menor que "d"? ${c < d}`);
 ```
 let p = 500;
 let m = 600;
+```
 
-// "&&" (and)
+#
+
+- "&&" (and)
+
+```
 if (p <= 700 && m >= 300) {
   console.log(
     '"p" é menor que 700 e "m" é maior que 300 | ' +
@@ -100,8 +105,13 @@ if (p <= 700 && m >= 300) {
       m
   );
 }
+```
 
-// "||" (ou)
+#
+
+- "||" (ou)
+
+```
 if (p <= 1000 || p <= 300) {
   console.log(
     '"p" é mmenor que 1000 e não é menor que 300' + ' |valor de "p": ' + p
@@ -332,7 +342,7 @@ console.log("-----------------------------------------------");
 
 ### OBJECT
 
-// https://www.youtube.com/watch?v=xPtypgipUls&list=PLTULYczsbNmoLrNyVESgaqJTxMUEPl9Gv&index=5
+<a href="https://www.youtube.com/watch?v=xPtypgipUls&list=PLTULYczsbNmoLrNyVESgaqJTxMUEPl9Gv&index=5">YT - Vivo Código - Métodos e objetos</a>
 
 - Objeto literal
 
